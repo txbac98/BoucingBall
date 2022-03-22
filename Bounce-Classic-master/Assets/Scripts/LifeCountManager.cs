@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class LifeCountManager : MonoBehaviour
 {
-    private const int _baseLifeCount = 3; // Можно использовать byte;
+    private const int _baseLifeCount = 3; 
     [SerializeField] private Text _lifeCountText;
     private static int _lifeCount;
 
